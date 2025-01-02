@@ -1,17 +1,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     android:orientation="vertical"
     android:padding="8dp">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="411dp"
         android:layout_height="wrap_content"
-        android:text="Your Cart"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:background="@color/background_color"
         android:gravity="center"
-        android:padding="16dp" />
+        android:padding="16dp"
+        android:text="Your Cart"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <ListView
         android:id="@+id/cart_list_view"
@@ -23,9 +27,9 @@
         android:id="@+id/btnCheckout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Checkout"
         android:layout_marginTop="20dp"
-        android:backgroundTint="@color/purple_500"
-        android:textColor="@android:color/white"
-        android:padding="12dp" />
+        android:backgroundTint="@color/button_color"
+        android:padding="12dp"
+        android:text="Checkout"
+        android:textColor="@android:color/white" />
 </LinearLayout>

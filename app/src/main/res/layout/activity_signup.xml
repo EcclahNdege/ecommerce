@@ -21,7 +21,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#0A86DE"
+            android:background="@color/gray_light"
             android:orientation="vertical"
             android:padding="24dp">
 
@@ -32,7 +32,7 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="16dp"
                 android:text="Create Account"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -99,7 +99,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:text="Already have an account? Login"
-                android:textColor="@color/purple_500" />
+                android:textColor="@color/white" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </RelativeLayout>
