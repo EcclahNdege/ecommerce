@@ -1,0 +1,23 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/background_color">
+
+    <!-- Top Navigation Bar -->
+    <include
+        layout="@layout/top_navigation_bar" />
+
+    <!-- Product List -->
+    <ListView
+        android:id="@+id/product_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/gray_medium"
+        android:dividerHeight="8dp" />
+
+
+</LinearLayout>

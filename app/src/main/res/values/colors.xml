@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_color">#3E2723</color> <!-- Dark Brown -->
+    <color name="primary_dark_color">#1B0000</color> <!-- Very Dark Brown -->
+    <color name="accent_color">#004D40</color> <!-- Dark Green -->
+
+    <!-- Neutral Colors -->
+    <color name="black">#FF000000</color> <!-- Black -->
+    <color name="white">#FFFFFFFF</color> <!-- White -->
+    <color name="gray_light">#4E342E</color> <!-- Light Brown -->
+    <color name="gray_medium">#3E2723</color> <!-- Medium Brown -->
+    <color name="gray_dark">#1B0000</color> <!-- Dark Brown -->
+    <color name="purple_500">#3E2723</color> <!-- Repurposed for Dark Brown -->
+
+    <!-- Background Colors -->
+    <color name="background_color">#212121</color> <!-- Very Dark Gray -->
+    <color name="card_background">#3E2723</color> <!-- Dark Brown -->
+    <color name="nav_bar_color">#2E2E2E</color> <!-- Dark Neutral Gray -->
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color> <!-- White for Contrast -->
+    <color name="text_secondary">#BCAAA4</color> <!-- Light Brownish Text -->
+    <color name="text_hint">#8D6E63</color> <!-- Subtle Brown -->
+
+    <!-- Button Colors -->
+    <color name="button_color">#004D40</color> <!-- Dark Green -->
+    <color name="button_text_color">#FFFFFF</color> <!-- White for Contrast -->
+
+    <!-- Icon Colors -->
+    <color name="icon_tint">#004D40</color> <!-- Dark Green -->
+    <color name="icon_disabled">#6D4C41</color> <!-- Muted Brown -->
+</resources>
